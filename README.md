@@ -160,3 +160,37 @@ In the initial stages of the project, we started by directly showing the data fr
      - **Grafana** is used to visualize the data stored in MongoDB, creating dynamic dashboards that update in real-time.<br>
 
 This new solution provided a reliable, scalable, and easily maintainable architecture that solved the initial issues we faced with direct MQTT data handling.
+
+## Project Screenshots
+
+### Wokwi IoT Sensor (Temperature & Humidity)
+Simulated weather data from **Wokwi IoT Sensor**:
+![Wokwi IoT Sensor](https://github.com/user-attachments/assets/ff4a78e6-9566-4ba2-85d7-30d1a2872b09)
+![Wokwi IoT Sensor](https://github.com/user-attachments/assets/968fdc21-f6e5-4a85-b0a9-4cf4b2302f10)
+
+### Grafana Dashboard
+Real-time data visualization in **Grafana**:
+![Grafana Dashboard](https://github.com/user-attachments/assets/e9c8d140-af17-44a7-a4f6-8ecacd0c3c8b)
+
+### AWS IoT Core (MQTT)
+AWS IoT Core handling MQTT communication:
+![AWS IoT Core](https://github.com/user-attachments/assets/29c0957e-32d2-4272-8feb-23fda7eaa812)
+
+### MQTT Pub/Sub
+Data published and subscribed using **MQTT**:
+![Pub/Sub](https://github.com/user-attachments/assets/f8395473-b658-49b4-8c62-163aa46d68ba)
+![Pub/Sub](https://github.com/user-attachments/assets/fe479036-212a-4d1f-9e47-50830d23f50b)
+
+### AWS Lambda
+Processing the data with **AWS Lambda**:
+![AWS Lambda](https://github.com/user-attachments/assets/e18fee9e-0351-485b-9032-8dc7fdab2404)
+![AWS Lambda](https://github.com/user-attachments/assets/db57739b-1c21-4621-b4a3-ac62893570ab)
+
+### MongoDB Database
+Storing data in **MongoDB Atlas**:
+![MongoDB Database](https://github.com/user-attachments/assets/ef3b1d33-aa32-4cd7-b82f-afcc20486273)
+
+## Conclusion
+The project demonstrated the integration of **IoT simulation**, **cloud services**, and **real-time visualization** for weather data. We learned how to connect multiple services and create an end-to-end solution for real-time monitoring.
+
+
