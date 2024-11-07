@@ -1,0 +1,5 @@
+query in grafana - 
+db.data.find(
+  {}, 
+  { temperature: 1, humidity: 1, timestamp: 1 }
+).sort({ timestamp: -1 })
