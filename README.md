@@ -2,6 +2,10 @@
 
 This project demonstrates an end-to-end IoT data pipeline that collects simulated sensor data from [Wokwi IoT Simulator](https://wokwi.com/), routes it through AWS IoT Core using MQTT, triggers AWS Lambda to process and store the data in MongoDB, and visualizes the data on Grafana.<br>
 
+## FlowChart
+![iot-aws-dataflow-simple](https://github.com/user-attachments/assets/7f13188f-77bc-4dfa-aeda-9cfd57c8567f)
+![iot-aws-dataflow-detailed](https://github.com/user-attachments/assets/ab8a3e87-9981-4151-b8c0-1e4ed6e3678d)
+
 ## Project Overview<br>
 
 - **Data Source**: Wokwi IoT Simulator generates temperature and humidity sensor data.<br>
